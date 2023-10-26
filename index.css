@@ -121,6 +121,25 @@ li > a {
   margin-bottom: 150px;
   margin-top: 50px;
   
+  
+}
+.project-name{
+  font-family:Verdana;
+  font-size: 200%;
+  margin-top: 5%;
+}
+.project-box1:hover{
+  transform: scale(1.1);
+}
+.logo-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20%;
+}
+.logo-align:hover{
+  transform: scale(0.9);
 }
 .project-box1{
   flex: 0 90px 0 90px;
@@ -134,19 +153,44 @@ li > a {
   background-color: #2a2a40;
 
 }
+.project-box1:hover{
+  background-color: white;
+  border: 2px solid blueviolet;
+}
+
+.project-link{
+  margin-top: 30%;
+}
+.project-link:hover{
+  color:#2a2a40;
+  text-decoration: underline;
+  font-style: italic;
+}
 .resume{
   border: 3px solid blueviolet;
   border-radius: 25px;
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 100px;
+  
+}
+.resume:hover{
+  background-color: #2a2a40;
 }
 .info-resume{
   color: #fff;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: Tahoma;
-  text-align: justify;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.info-resume:hover{
+  color: blueviolet;
+  font-weight:bolder;
+  
 }
 
 #scrollToTop {
@@ -250,6 +294,9 @@ li > a {
   .project-title{
     text-align: center;
     margin-bottom: 200px;
+  }
+  .project-title:hover{
+    color:blueviolet;
   }
   
   h2 {
@@ -443,12 +490,20 @@ li > a {
   .social-icons {
     margin-top: 10px;
   }
+  .twit:hover{
+    transform: scale(1.3);
+  }
+
+  
 
   .social-icons a {
     color: #fff;
-    font-size: 20px;
+    font-size: 35px;
     margin: 0 10px;
     text-decoration: none;
+  }
+  .social-icons a :hover{
+    transform: scale(1.1);
   }
   .social-icons-1 {
     margin-top: 10px;
